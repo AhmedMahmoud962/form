@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <title>مركز قياسي مصر </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <link href="book.css" rel="stylesheet">
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+<style>
+  
+main {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 1000px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+main .text {
+  margin: 0 20px;
+}
+
+main .text h1 {
+  margin: 10px 0;
+  color: #d1b686;
+}
+
+main .text p {
+  margin: 0 15px;
+  color: #dc3545;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.boxing {
+  max-width: 1000px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.boxing .title {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.content form .user-details {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  /* margin: 20px 0 12px 0; */
+  align-items: baseline;
+}
+
+form .user-details .input-box {
+  margin: 10px;
+  width: 210px;
+}
+
+
+
+form .input-box label {
+  font-size: 18px;
+  color: #143665;
+}
+
+.user-details .input-box input,
+.user-details .input-box .date,
+.user-details .input-box .select {
+  height: 35px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  padding: 0 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.input-box .btn {
+  padding: 7px 15px;
+  width: 180px;
+  margin: 15px auto;
+  border-radius: 7px;
+  border: none;
+  background-color: #143665;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: .5s all;
+}
+
+.input-box .btn:hover {
+  background-color: #d1b686;
+}
+
+.required:after {
+  content: "*";
+  color: red;
+}
+
+@media(max-width: 584px) {
+  .container {
+    max-width: 100%;
+  }
+
+  form .user-details .input-box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  form .category {
+    width: 100%;
+  }
+
+  .user-details::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  main {
+    margin: 30px auto;
+  }
+
+}
+
+@media(max-width: 459px) {
+  .container .content .category {
+    flex-direction: column;
+  }
+
+  main .text {
+    margin: 0 15px;
+  }
+
+  main .text p {
+    margin: 0 10px;
+    color: #dc3545;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  main {
+    margin: 20px auto;
+  }
+}
+</style>
+<main>
+    <div class="text">
+      <h1>حسابي</h1>
+      <p>حسابك غير مفعل للتقدم للخدمات الإلكترونية، سوف يتم تفعيل حسابك قريبا عن طريق المكتب الثقافي الكويتي </p>
+    </div>
+    <div class="main">
+      <div class="boxing">
+        <div class="content">
+          <form action="" method="">
+            <div class="user-details">
+              <div class="input-box">
+                <label class="details required">الإسم الأول </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">الإسم الثاني </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">الإسم الثالث </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">الإسم الرابع </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">الإسم الأول (انجليزي) </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">الإسم الثاني (انجليزي) </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">الإسم الثالث (انجليزي) </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">الإسم الرابع (انجليزي) </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">رقم جواز السفر </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">تاريخ انتهاء جواز السفر </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">رقم الهاتف الإماراتي </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">رقم الهاتف الكويتي </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">رقم الواتس اب </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">رقم الطوارئ وصلة القرابة </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">البريد الإلكتروني </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">العنوان في الإمارات </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">العنوان في الكويت </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">تاريخ الميلاد </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">الجنس</label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">جهة العمل </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box">
+                <label class="details required">الحالة الإجتماعية </label>
+                <input name="name" type="text" placeholder="" required>
+              </div>
+              <div class="input-box" style="width: 280px;">
+                <label class="details required" style="font-size: 16px;">صورة جواز السفر (تحميل صور فقط) </label>
+                <input name="name" type="file" value="browse" placeholder="" required style="padding: 7px 2px;">
+              </div>
+            </div>
+            <div class="input-box">
+              <button class="btn">حفظ</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="boxing">
+        <h2 style="color: #143665;">تغيير كلمة السر
+        </h2>
+        <div class="content">
+
+          <form action="" method="">
+            <div class="user-details">
+
+              <div class="input-box" style="width: 100%;">
+                <label class="details required"> تغيير كلمة السر </label>
+                <input name="name" type="text" placeholder="ادخل كلمه السر الجديده" required style="width: 100%;">
+              </div>
+            </div>
+            <div class="input-box">
+              <button class="btn">تغيير</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+</main>
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
